@@ -763,33 +763,54 @@ nav a.active {
     transition: transform 0.45s ease, filter 0.45s ease;
 }
 
+.certificate-thumbnail {
+    display: block;
+    overflow: hidden;
+    background: #14121a;
+}
+
 .certificate-card:hover img {
     transform: scale(1.04);
     filter: brightness(1.08) saturate(1.08);
 }
 
 .certificate-content {
+    display: flex;
+    min-height: 178px;
+    flex-direction: column;
     padding: 20px;
 }
 
 .certificate-content > span {
     color: #a78bfa;
     font-size: 12px;
+    order: 2;
 }
 
 .certificate-content h3 {
     min-height: 54px;
-    margin: 8px 0 16px;
+    margin: 0 0 4px;
     font-size: 18px;
+    order: 1;
 }
 
-.certificate-content a {
+.certificate-content .certificate-link {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 9px 12px;
+    border: 1px solid #4c367e;
+    border-radius: 6px;
+    background: #1b1327;
     color: #a78bfa;
     font-size: 13px;
     font-weight: bold;
+    order: 3;
+    transition: 0.3s;
 }
 
-.certificate-content a:hover {
+.certificate-content .certificate-link:hover {
+    border-color: #8b5cf6;
+    background: #25183a;
     color: white;
 }
 
