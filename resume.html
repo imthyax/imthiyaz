@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Imthiyaz P Y</title>
+    <style>
+        :root { color-scheme: light; --ink: #18212b; --muted: #5c6875; --accent: #7356d8; --line: #dce1e7; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #eef1f5; color: var(--ink); font: 15px/1.55 Arial, Helvetica, sans-serif; }
+        main { width: min(900px, calc(100% - 32px)); margin: 32px auto; padding: 48px 56px; background: white; box-shadow: 0 14px 40px rgba(24, 33, 43, .12); }
+        header { display: flex; justify-content: space-between; gap: 24px; border-bottom: 3px solid var(--accent); padding-bottom: 24px; }
+        h1 { margin: 0; font-size: 36px; letter-spacing: 1px; } h2 { margin: 26px 0 10px; font-size: 16px; color: var(--accent); letter-spacing: 1.5px; text-transform: uppercase; }
+        h3 { margin: 0 0 3px; font-size: 17px; } p { margin: 5px 0; } .contact { text-align: right; color: var(--muted); }
+        .role { margin-top: 4px; color: var(--muted); font-size: 17px; } .summary { color: var(--muted); }
+        .item { margin: 12px 0 16px; } .meta { color: var(--muted); } ul { margin: 7px 0 0 20px; padding: 0; } li { margin: 3px 0; }
+        .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 28px; } .label { font-weight: bold; }
+        a { color: var(--accent); } @media (max-width: 620px) { main { margin: 0; width: 100%; padding: 30px 22px; } header { display: block; } .contact { margin-top: 14px; text-align: left; } .skills { grid-template-columns: 1fr; } }
+        @media print { body { background: white; } main { width: 100%; margin: 0; padding: 20px; box-shadow: none; } }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div><h1>IMTHIYAZ P Y</h1><p class="role">BCA AI/ML Student | Aspiring Full Stack Developer</p></div>
+            <div class="contact">Kodagu, Karnataka, India<br>7019736315<br><a href="mailto:inthiyazinthu315@gmail.com">inthiyazinthu315@gmail.com</a><br>github.com/imthyax | LinkedIn: imthiyaz-p-y-289121356</div>
+        </header>
+
+        <section><h2>Professional Summary</h2><p class="summary">BCA student specializing in Artificial Intelligence, Machine Learning and Cloud Computing, with hands-on experience building responsive web interfaces and academic AI/ML projects. Skilled in HTML, CSS, JavaScript, Bootstrap, Python, Java, C, MySQL, Git, and foundational AI/ML and deep learning concepts. Currently learning backend development with Node.js, Express.js and MongoDB, with the goal of growing into a full stack developer.</p></section>
+
+        <section><h2>Education</h2>
+            <div class="item"><h3>BCA - Artificial Intelligence / Machine Learning / Cloud Computing</h3><p class="meta">Yenepoya Institute of Arts, Science, Commerce &amp; Management, Mangalore | 2023-2027 | 5th Semester | CGPA: 8.08</p></div>
+            <div class="item"><h3>12th / Higher Secondary</h3><p class="meta">Gout PU College, Kumbra, Puttur Taluk | 2023 | 81%</p></div>
+            <div class="item"><h3>10th / Secondary School</h3><p class="meta">Triveni School, Virajpet, Madikeri Taluk | 2021 | 70%</p></div>
+        </section>
+
+        <section><h2>Technical Skills</h2><div class="skills"><p><span class="label">Programming:</span> Python, Java, C, JavaScript</p><p><span class="label">Web Development:</span> HTML, CSS, Bootstrap</p><p><span class="label">Database:</span> MySQL, Database Concepts</p><p><span class="label">AI / ML:</span> Artificial Intelligence, Machine Learning, Deep Learning, ANN</p><p><span class="label">Tools:</span> Git, GitHub, VS Code, TensorFlow</p><p><span class="label">Currently Learning:</span> Node.js, Express.js, MongoDB, Angular, Full Stack Development</p></div></section>
+
+        <section><h2>Projects</h2>
+            <div class="item"><h3>BurgerHome - Food Ordering Website</h3><p class="meta">HTML, CSS, JavaScript, Bootstrap, PWA</p><p>Developed a responsive food ordering website with menu and product sections, offers, cart functionality using localStorage, and interactive UI components. Deployed using GitHub Pages. <a href="https://imthyax.github.io/Burger-house-project/">Live project</a></p></div>
+            <div class="item"><h3>Face Mask Detection</h3><p class="meta">Python, TensorFlow, VS Code, Deep Learning</p><p>Developed an image classification project to identify whether a person is wearing a face mask using Python, TensorFlow and deep learning techniques.</p></div>
+        </section>
+
+        <section><h2>Certifications</h2><ul><li>Python for Data Science, AI &amp; Development - IBM</li><li>Introduction to Artificial Intelligence (AI) - IBM</li><li>Introduction to Neural Networks - Johns Hopkins University</li><li>Machine Learning with Neural Networks - Dartmouth College</li><li>Cloud Computing Basics (Cloud 101) - LearnQuest</li><li>Introduction to Java - LearnQuest</li><li>The Structured Query Language (SQL) - University of Colorado Boulder</li></ul></section>
+    </main>
+</body>
+</html>
